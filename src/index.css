@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+ */
+
+:root {
+  /* font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #c3bae9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}

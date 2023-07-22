@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Home, About, Projects, Skills } from "./pages";
 import { SheardLyout } from "./components";

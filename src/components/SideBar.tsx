@@ -1,8 +1,5 @@
 import { NavLink } from "react-router-dom";
 import logo from "../assets/Logo.png";
-import discord from "../assets/discord.svg";
-import gmail from "../assets/gmail.svg";
-import tele from "../assets/telegram.png";
 
 const SideBar = () => {
   return (

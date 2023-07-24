@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import { Home, About, Projects, Skills } from "./pages";
 import { SheardLyout } from "./components";
-
+import "./index.css";
 function App() {
   return (
     <>
       <Routes>
-        <Route element={<SheardLyout />}>
+        <Route path="/" element={<SheardLyout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />

@@ -36,6 +36,7 @@ export default {
         // custom shadow
         nano: "0 5px 15px #657CDB",
         icon: "0 1px 7px #000",
+        github: "0 2px 0px #ede9f9",
       },
       // animation section
       animation: {
